@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>
+	<title>JQuery Effect Sliding</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	
+	<script>
+			
+
+		eval(function(p,a,c,k,e,d){e=function(c){return c};if(!''.replace(/^/,String)){while(c--){d[c]=k[c]||c}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('$(2).1(0(){$("#3").4(0(){$("#5").7("6")})})',8,8,'function|ready|document|list|click|panel|slow|slideToggle'.split('|'),0,{}))
+
+	
+	</script>
+	
+	<style>
+	body{
+	background-color:white;
+	}
+	#panel{
+	  padding: 1px;
+	  text-align: left;
+	  background-color: #e5eecc;
+	  border: solid 1px #c3c3c3;
+	  padding: 5px;
+	  display: none;
+		margin-left:100px;
+		margin-right:200px;
+	  
+	}
+	
+	#list{
+		padding: 1px;
+		background-color: #e5eecc;
+		border: solid 1px #c3c3c3;
+		font-size:30px;
+		text-align:center;
+		margin-top:50px;
+		margin-left:100px;
+		margin-right:200px;
+	}
+	
+	.button {
+	  position: relative;
+	  background-color: #04AA6D;
+	  border: none;
+	  font-size: 28px;
+	  color: #FFFFFF;
+	  text-align: center;
+	  -webkit-transition-duration: 0.4s; /* Safari */
+	  transition-duration: 0.4s;
+	  text-decoration: none;
+	  overflow: hidden;
+	  cursor: pointer;
+	  margin: 5px;
+	}
+
+	.button:after {
+	  content: "";
+	  background: #90EE90;
+	  display: block;
+	  position: absolute;
+	  padding-top: 300%;
+	  padding-left: 350%;
+	  margin-left: -20px!important;
+	  margin-top: -120%;
+	  opacity: 0;
+	  transition: all 0.8s
+	}
+
+	.button:active:after {
+	  padding: 0;
+	  margin: 0;
+	  opacity: 1;
+	  transition: 0s
+	}
+	</style>
+
+</head>
+
+<body>
+	<ul>
+		<div <li class ="button" id="list"><a href="#">Apa itu jQuery?</a></li></div>
+		<div <li id="panel">jQuery adalah library JavaScript yang cukup andal, ringkas, dan mempunyai fitur yang cukup lengkap. Library ini membuat pemrosesan di HTML seperti perubahan dan manipulasi dokumen, event handling, animasi, dan Ajax dapat menjadi lebih sederhana. Hal ini didukung dengan API yang mudah digunakan dan dapat bekerja di berbagai macam browser.<br><a href="https://www.niagahoster.co.id/blog/jquery-adalah/">Klik selengkapnya</li></div>
+	</ul>
+</body>
+</html>
